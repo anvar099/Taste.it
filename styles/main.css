@@ -1,0 +1,493 @@
+.contaiiner {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.navbar {
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.navbar-nav {
+  cursor: pointer;
+}
+
+.taste {
+  color: red;
+  transition: 0.5s;
+}
+
+.taste:hover {
+  color: white;
+}
+
+.it {
+  font-weight: 700;
+  font-size: 23px;
+  font-family: roboto, Arial, sans-serif;
+  color: white;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 23px;
+  font-family: roboto, Arial, sans-serif;
+  color: white;
+}
+
+.navbar-nav .navbar-link {
+  font-weight: 700;
+  font-family: roboto, Arial, sans-serif;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.navbar-link:hover {
+  color: red;
+}
+
+.navbar-link:focus {
+  color: red;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carousel {
+  height: 100vh;
+  margin: 0px -122px;
+}
+
+.banner {
+  height: 100vh;
+  background-size: cover;
+}
+
+/***********************************************************************BOOK************************************************************/
+.booking {
+  height: 90vh;
+}
+
+.booking-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.booking-box {
+  background-color: #d62020;
+  margin-left: 120px;
+  height: 90vh;
+}
+
+.booking-input-box {
+  padding: 55px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-title {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: white;
+}
+
+.booking-input {
+  height: 40px;
+  width: 300px;
+  outline: none;
+  background-color: #d62020;
+  border: 0.7px solid #d1c1c1;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 20px 15px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.booking-btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 60px;
+  width: 300px;
+  margin-top: 15px;
+  background-color: white;
+  padding: 17px 70px;
+}
+
+.booking-btn-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 24px;
+}
+
+.booking-btn-link:hover {
+  color: #d62020;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.booking-2 {
+  background-image: url(../assets/images/chef-cooking-fresh-vegetable-salad-his-kitchen.jpg);
+  width: 63vw;
+  height: 90vh;
+  background-size: cover;
+  background-color: white;
+}
+
+.booking-content-2 {
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.booking-title-2 {
+  font-family: Comic Sans MS, cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #d62020;
+}
+
+.booking-title-mini {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 45px;
+}
+
+.booking-paragraph {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #808080;
+  margin-top: 20px;
+}
+
+/******************************************************************         PARALLAX       *****************************************************/
+.margin {
+  margin: NaN%;
+}
+
+.parallax {
+  background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.541)), url(../assets/images/people-2561634_1920.jpg) repeat fixed 100%;
+}
+
+.parallax-inner {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.parallax-h1 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.parallax-h2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+}
+
+/******************************************************************         MENU       *****************************************************/
+.menu {
+  height: 270vh;
+}
+
+.menu-title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.menu-title-mini {
+  font-family: Comic Sans MS, cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #d62020;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.menu-content {
+  border: 1.99999999px dotted #888787;
+  width: 370px;
+  height: fit-content;
+  background-color: #f8f6f6;
+}
+
+.menu-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 70px;
+}
+
+.menu-content:hover {
+  border: 1.99999999px dotted #e52b34;
+  transition: 0.4s;
+}
+
+.menu-food-title {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #1d1c1c;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.fas {
+  color: #e7e1e1;
+  font-size: 40px;
+}
+
+.menu-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-image {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.menu-food {
+  margin: 30px;
+}
+
+.menu-food-2 {
+  border-bottom: 1.99999999px dotted #888787;
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+}
+
+.menu-food-2:hover {
+  border-bottom: 1.99999999px dotted #e52b34;
+  transition: 0.4s;
+}
+
+.menu-food-3 {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+}
+
+.menu-nick {
+  font-size: 17px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 600;
+  color: #363636;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.menu-nick:hover {
+  color: #e52b34;
+  transition: 0.3s;
+}
+
+.menu-nick-2 {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  color: #363636;
+  font-size: 15px;
+  line-height: 30px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.menu-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e52b34;
+  margin-left: -55px;
+}
+
+/******************************************************************         PARALLAX    2   *****************************************************/
+.parallax-2 {
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.541)), url(../assets/images/mediterranean-cuisine-2378758_1920.jpg) repeat fixed 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.parallax-inner-2 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.parallax-h1-2 {
+  font-family: Comic Sans MS, cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #d62020;
+  text-align: center;
+}
+
+.parallax-h2-2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 45px;
+  color: white;
+  text-align: center;
+}
+
+/******************************************************************       TESTIMONIAL   *****************************************************/
+.testimonial-image-parallax {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 30px 0px;
+}
+
+.testimonial-parallax-inner {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.testimonial-parallax {
+  height: 60vh;
+  width: 700px;
+}
+
+.testimonial-paragraph {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  line-height: 28px;
+}
+
+.testimonial-p-name {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  line-height: 20px;
+}
+
+.customer {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #b3b3b3;
+  margin: 10px;
+}
+
+.carousel-indicators .li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid #5f0707;
+  background-color: red;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+}
+
+/******************************************************************   MASTER CHEF   *****************************************************/
+.master-chef {
+  background-color: #f8f6f6;
+  height: 150vh;
+}
+
+.chef-master-mini {
+  font-family: Comic Sans MS, cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #d62020;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.master-chef-title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 45px;
+  color: black;
+  text-align: center;
+}
+
+.chef-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.chef-master-box {
+  background-color: white;
+  width: 250px;
+}
+
+.chef-master-img {
+  width: 250px;
+  height: 330px;
+  object-fit: cover;
+}
+
+.chef-master-name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 10px;
+  color: #383737;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 15px;
+}
+
+.chef-master-job {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+  color: #8b8a8a;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0px 15px;
+}
+
+.chef-master-about {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #8b8888;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 10px 15px;
+  width: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */
