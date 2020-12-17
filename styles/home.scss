@@ -3,72 +3,134 @@
   padding: 0px;
   overflow-x: hidden;
 }
+/********************************************************            NAVBAR       ***************************************************/
+
 .navbar{
-  margin-top: 100px;
+  margin-top: 50px;
+  background-color: transparent;
   // height: 90px;
   border-radius: 5px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 50px 100px;
+  z-index: 100000;
+}
+.navbar.sticky{
+  padding: 0px 100px;
+  background-color: white;
+  height: 70px;
+  margin: -10px -50px;
+}
+.navbar.sticky .navbar-nav .navbar-items .navbar-links{
+  color: black;
+  margin-top: 10px;
+}
+.navbar.sticky .navbar-nav .navbar-items .active{
+  color: #e52b34;
+}
+.navbar.sticky .taste{
+  color: black;
+}
   // // position: absolute;
   // background-color: transparent;
   // border-color: transparent;
 
-}
-.navbar-nav{
-  // margin-left: 370px;
-  cursor: pointer;
-}
+// 
+// .navbar-nav{
+//   // margin-left: 370px;
+//   cursor: pointer;
+// }
 .taste{
-  color: red;
+  color: #e52b34;
   transition: 0.5s;
+  font-size: 23px;
+  font-family: roboto, Arial, sans-serif;
+  font-weight: 600;
 }
 .taste:hover{
   color: white;
 }
 .it{
-  font-weight: 700;
+  font-weight: 600;
   font-size: 23px;
   font-family: roboto, Arial, sans-serif;
   color: white;
 }
-.navbar-brand{
-  font-weight: 700;
-  font-size: 23px;
-  font-family: roboto, Arial, sans-serif;
-  color: white;
-}
-.navbar-nav{
-  .navbar-link{
+// .navbar-brand{
+//   font-weight: 700;
+//   font-size: 23px;
+//   font-family: roboto, Arial, sans-serif;
+//   color: white;
+// }
+.navbar-items{
+  .navbar-links{
     font-weight: 700;
     font-family: roboto, Arial, sans-serif;
-    color: white;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 0.5px;
     margin-left: 20px;
     transition: 0.5s;
+    padding: 25px 0px;
   }
 }
-
-.navbar-link:hover{
-  color: red;
-
+.navbar-links:hover{
+  color: #e52b34;
+  transition: 0.3s;
 }
-.navbar-link:focus{
-  color: red;
+/********************************************************            BACKGROUND-IMAGE        ***************************************************/
 
-}
-.navbar-collapse{
-  display: flex;
-  justify-content: flex-end;
-}
-.carousel{
+
+.banner-img{
+  width: 100vw;
   height: 100vh;
-  margin: 0px -122px;
-
+  object-fit: cover;
+  background-size: cover;
   
 }
-.banner{
+.bg-image{
   height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
   background-size: cover;
 
+}
+.carousel-caption{
+  margin-bottom: 150px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-h3{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid rgb(231, 230, 230);
+  width: 310px;
+  padding: 7px;
+  letter-spacing: 3px;
+  font-family: Roboto, Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+}
+.bg-paragraph{
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  font-weight: 100;
+  color: white;
+  font-style: normal;
+}
+.bg-dash{
+  letter-spacing: -3px;
+  color: #e52b34;
+  height: 20px;
+  font-weight: bold;
+}
+.bg-date{
+  font-size: 20px;
+  color: #e52b34;
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+  letter-spacing: 6px;
 }
 /***********************************************************************BOOK************************************************************/
 
@@ -81,7 +143,7 @@
 }
 .booking-box{
   background-color: rgb(214, 32, 32);
-  margin-left: 120px;
+  margin-left: 80px;
   height: 90vh;
 }
 .booking-input-box{
@@ -134,7 +196,7 @@
 }
 .booking-2{
   background-image: url(../assets/images/chef-cooking-fresh-vegetable-salad-his-kitchen.jpg);
-  width: 63vw;
+  width: 70vw;
   height: 90vh;
   background-size: cover;
   background-color: white;

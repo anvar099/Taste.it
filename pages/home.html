@@ -12,7 +12,86 @@
   <div class="contaiiner">
     <div class="home-page">
     <!-------------------------------------                     NAVBAR               --------------------------------------------------->
-    <div>
+    
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="taste">Taste.</span><span class="it">it</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item navbar-items">
+                <a class="nav-link navbar-links active" href="#">HOME</a>
+              </li>
+              <li class="nav-item navbar-items">
+                <a class="nav-link navbar-links" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item navbar-items">
+                <a class="nav-link navbar-links" href="#">CHEF</a>
+              </li>
+              <li class="nav-item navbar-items">
+                <a class="nav-link navbar-links" href="#">MENU</a>
+              </li>
+              <li class="nav-item navbar-items">
+                <a class="nav-link navbar-links" href="#">RESERVATION</a>
+              </li>
+              <li class="nav-item navbar-items">
+                <a class="nav-link navbar-links" href="#">BLOG</a>
+              </li>
+              <li class="nav-item navbar-items">
+                <a class="nav-link navbar-links" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <script type="text/javascript">
+        
+        window.addEventListener("scroll", function(){
+          var navbar = document.querySelector(".navbar");
+          navbar.classList.toggle("sticky", window.scrollY > 0);
+        })
+      </script>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item bg-image active">
+            <div class="banner-img" class="d-block w-100" alt="..." style="background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.37)), url(../assets/images/bg-1.jpg);"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="bg-h3">TASTE.IT RESTAURANT</h3>
+              <p class="bg-paragraph">
+                Cooking Since
+              </p>
+              <span class="bg-dash">-----------------------</span>
+              <span class="bg-date">1958</span>
+              <span class="bg-dash">-----------------------</span>
+            </div>
+          </div>
+          
+          <div class="carousel-item bg-image">
+            <div class="banner-img" class="d-block w-100" alt="..." style="background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.37)), url(../assets/images/bg-2.jpg);"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="bg-h3">TASTE.IT RESTAURANT</h3>
+              <p class="bg-paragraph">
+                Best Quality
+              </p>
+              <span class="bg-dash">-----------------------</span>
+              <span class="bg-date">FOOD</span>
+              <span class="bg-dash">-----------------------</span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+   
+    <!-- <div>
       <nav class="navbar navbar-expand-lg bg-dark">
           <a class="navbar-brand" href="#"><span class="taste">Taste.</span><span class="it">it</span></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,14 +106,13 @@
               <a class="nav-link navbar-link" href="#">RESERVATION</a>
               <a class="nav-link navbar-link" href="#">BLOG</a>
               <a class="nav-link navbar-link" href="#">CONTACT</a>
-              
             </div>
           </div>
         </nav>
-      </div>
+      </div> -->
     <!-------------------------------------                     BACKGROUND IMAGE                --------------------------------------------------->
       
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
      
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -60,7 +138,7 @@
         
       </div>
       
-    </div>
+    </div> -->
        <!-------------------------------------                     BOOK                --------------------------------------------------->
     <div class="booking">
       <div class="booking-content">
@@ -604,7 +682,7 @@
                   <div class="testimonial-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reprehenderit earum nisi corporis perspiciatis. Temporibus?
                   </div>
-                  <img class="testimonial-image-parallax" src="../assets/images/armin-883896_640.jpg" class="d-block w-100" alt="...">
+                  <img class="testimonial-image-parallax" src="../assets/images/girl.jpg" class="d-block w-100" alt="...">
                   <div class="testimonial-p-name">
                     John Gustavo
                   </div>
@@ -616,7 +694,7 @@
                   <div class="testimonial-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reprehenderit earum nisi corporis perspiciatis. Temporibus?
                   </div>
-                  <img class="testimonial-image-parallax" src="../assets/images/armin-883896_640.jpg" class="d-block w-100" alt="...">
+                  <img class="testimonial-image-parallax" src="../assets/images/girl.jpg" class="d-block w-100" alt="...">
                   <div class="testimonial-p-name">
                     John Gustavo
                   </div>
@@ -628,7 +706,7 @@
                   <div class="testimonial-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reprehenderit earum nisi corporis perspiciatis. Temporibus?
                   </div>
-                  <img class="testimonial-image-parallax" src="../assets/images/armin-883896_640.jpg" class="d-block w-100" alt="...">
+                  <img class="testimonial-image-parallax" src="../assets/images/girl.jpg" class="d-block w-100" alt="...">
                   <div class="testimonial-p-name">
                     John Gustavo
                   </div>
@@ -640,7 +718,7 @@
                   <div class="testimonial-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reprehenderit earum nisi corporis perspiciatis. Temporibus?
                   </div>
-                  <img class="testimonial-image-parallax" src="../assets/images/armin-883896_640.jpg" class="d-block w-100" alt="...">
+                  <img class="testimonial-image-parallax" src="../assets/images/girl.jpg" class="d-block w-100" alt="...">
                   <div class="testimonial-p-name">
                     John Gustavo
                   </div>
@@ -652,7 +730,7 @@
                   <div class="testimonial-paragraph">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reprehenderit earum nisi corporis perspiciatis. Temporibus?
                   </div>
-                  <img class="testimonial-image-parallax" src="../assets/images/armin-883896_640.jpg" class="d-block w-100" alt="...">
+                  <img class="testimonial-image-parallax" src="../assets/images/girl.jpg" class="d-block w-100" alt="...">
                   <div class="testimonial-p-name">
                     John Gustavo
                   </div>
